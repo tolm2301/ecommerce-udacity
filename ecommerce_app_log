@@ -394,3 +394,7 @@ insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505
 2024-09-05 15:57:25.940 ERROR 39584 --- [http-nio-8080-exec-5] c.e.demo.controllers.UserController      : Password and ConfirmPassword is not equal with user: tolm900
 2024-09-05 15:57:28.826 ERROR 39584 --- [http-nio-8080-exec-8] c.e.demo.controllers.UserController      : Password and ConfirmPassword is not equal with user: tolm900
 2024-09-05 15:57:32.970 ERROR 39584 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : Password is less than 7 characters with user: tolm900
+2024-09-05 16:43:04.844  INFO 39584 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2024-09-05 16:43:04.885  INFO 39584 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-05 16:43:04.968  INFO 39584 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-05 16:43:04.984  INFO 39584 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
